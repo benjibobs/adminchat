@@ -1,23 +1,5 @@
-name: AdminChat
-version: 1.0
-description: Adds an admin chat channel
-author: benjibobs
-main: com.github.benjibobs.admin.Main
-commands:
-  a:
-    description: Use adminchat.
-    permission: Adminchat.send
-    default: op
-permissions:
-  Adminchat.*:
-    description: Access to all commands
-    default: op
-    children:
-      Adminchat.read: true
-      Adminchat.send: true
-  Adminchat.read:
-    description: Read adminchat
-    default: op
-  Adminchat.send:
-    description: Send messages to adminchat.
-    default: op
+name: TBD
+version: 0.1
+description: TBD
+author: addbothofuslater
+main: com.github.benjibobsmc.adminchat.Main
